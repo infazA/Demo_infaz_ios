@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8LE-OV-Ca9" customClass="SectionHeaderView" customModule="CS_iOS_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLH-vV-mrX">
+                    <rect key="frame" x="20" y="0.0" width="394" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.91013222930000004" green="0.75336581469999997" blue="0.3118757606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.25094899539999999" green="0.25099846720000002" blue="0.2509458363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zAV-XX-9dB" firstAttribute="trailing" secondItem="mLH-vV-mrX" secondAttribute="trailing" id="2l9-Rl-PzX"/>
+                <constraint firstItem="zAV-XX-9dB" firstAttribute="bottom" secondItem="mLH-vV-mrX" secondAttribute="bottom" id="Nkq-bl-Vwu"/>
+                <constraint firstItem="mLH-vV-mrX" firstAttribute="leading" secondItem="zAV-XX-9dB" secondAttribute="leading" constant="20" id="UJS-a7-vBE"/>
+                <constraint firstItem="mLH-vV-mrX" firstAttribute="top" secondItem="8LE-OV-Ca9" secondAttribute="top" id="zAP-ha-cHD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="zAV-XX-9dB"/>
+            <connections>
+                <outlet property="lblSectionTitle" destination="mLH-vV-mrX" id="ltB-pg-lAC"/>
+            </connections>
+            <point key="canvasLocation" x="-133.33333333333334" y="-537.72321428571422"/>
+        </view>
+    </objects>
+</document>
